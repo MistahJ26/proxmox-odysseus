@@ -21,7 +21,7 @@ var_unprivileged="${var_unprivileged:-1}"
 var_lxc_git_repo="${var_lxc_git_repo:-odysseus-dev/odysseus}"
 var_lxc_git_branch="${var_lxc_git_branch:-main}"
 var_lxc_git_tag="${var_lxc_git_tag:-}"
-var_lxc_pinned_commit="${var_lxc_pinned_commit:-e4cc8ef}"
+var_lxc_pinned_commit="${var_lxc_pinned_commit:-1c15090}"
 
 function install_script() {
   msg_info "Installing Dependencies"
