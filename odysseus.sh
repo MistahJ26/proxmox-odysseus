@@ -18,10 +18,10 @@ var_os="${var_os:-debian}"
 var_version="${var_version:-13}"
 var_arm64="${var_arm64:-no}"
 var_unprivileged="${var_unprivileged:-1}"
-var_lxc_git_repo="${var_lxc_git_repo:-odysseus-dev/odysseus}"
+var_lxc_git_repo="${var_lxc_git_repo:-MistahJ26/odysseus}"
 var_lxc_git_branch="${var_lxc_git_branch:-main}"
 var_lxc_git_tag="${var_lxc_git_tag:-}"
-var_lxc_pinned_commit="${var_lxc_pinned_commit:-1c15090}"
+var_lxc_pinned_commit="${var_lxc_pinned_commit:-5ca1cc8}"
 
 function install_script() {
   msg_info "Installing Dependencies"
